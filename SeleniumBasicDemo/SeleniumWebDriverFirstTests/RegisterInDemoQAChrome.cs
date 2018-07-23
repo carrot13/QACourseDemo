@@ -24,6 +24,7 @@
         public void SetUp()
         {
             // Add first comment
+            // Add second comment
             _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
            _draggablePage = new DraggablePage(_driver);
             _sideBarPage = new SideBarPage(_driver);
