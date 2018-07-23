@@ -23,7 +23,7 @@
         [SetUp]
         public void SetUp()
         {
-            // I am feature 1
+            // I am Feature 2
             _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
            _draggablePage = new DraggablePage(_driver);
             _sideBarPage = new SideBarPage(_driver);
